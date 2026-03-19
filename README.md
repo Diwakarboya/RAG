@@ -1,4 +1,4 @@
-## Simple LangChain + FAISS RAG App
+## LangChain + FAISS RAG App
 
 This project is a minimal Retrieval-Augmented Generation (RAG) example using:
 
