@@ -58,21 +58,5 @@ python rag_app.py docs\\example.txt
 4. **Retrieve**: On each question, retrieves the most similar chunks from FAISS.
 5. **Generate**: Uses `ChatGoogleGenerativeAI` (`gemini-1.5-flash`) to answer the question based on retrieved context.
 
-### 4. Git / GitHub
 
-Initialize the repo (already safe to run again if needed):
-
-```bash
-git init
-git add .
-git commit -m "Initial RAG example"
-```
-
-Then create a GitHub repo and push:
-
-```bash
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git branch -M main
-git push -u origin main
-```
 
